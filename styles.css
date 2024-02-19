@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    text-align: center;
+}
+div h2 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+div hr {
+    margin: 20px;
+}
+div input[type=number] {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;  
+}
+
+div select {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+div input[type=number]:read-only {
+    border: 1px solid#f786f1;
+    background-color:#f583ef;
+    color:#000000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div button {
+    margin: 0 4px;
+    padding: 6px 0;
+    width: 62px;
+    border: 1px solid#f58aef;
+    background-color:#fffdfd;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div button:hover {
+    background-color:#f588e6;
+}
+div button:focus {
+    outline: 2px solid#f396e7;
+}
